@@ -1,0 +1,20 @@
+l=[0]
+for i in range(0,5):
+    min=100
+    S=0
+    for i in range(1,6):
+        if(not in 1)
+        l.append(i)
+        X_opt=X[:,1]
+      regressor_ols=sm.OLS(endog=Y,exog=X_opt).fit()
+      z=regressor_ols.summary()
+      y1=regressor_ols.summary().tables[0][3][3].data
+      p=regressor_ols.f_pValue
+      if(float(y1)=float(min)):
+          min=y1
+          s=i
+          p=regressor_ols.summary()
+          l.remove(i)
+      print("variable",s)
+      print(z)
+      l.append(s)
